@@ -22,11 +22,11 @@ const DragnDropZone = () => {
         <p className={styles.optionsText}>You can try with these options too:</p>
         <div className={styles.optionsImages}>
           {MOCK_IMAGES.map(({ name, url }) => (
-            <div key={name} className={styles.imgWrapper}>
-              <Link href={`/search/?value=${name}`}>
+            <Link href={`/search/?value=${name}`} key={name}>
+              <div className={styles.imgWrapper}>
                 <Image src={url} alt={name} layout="fill" />
-              </Link>
-            </div>
+              </div>
+            </Link>
           ))}
         </div>
       </div>

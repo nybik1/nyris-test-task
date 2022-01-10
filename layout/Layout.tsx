@@ -7,7 +7,7 @@ import logoSVG from "../public/assets/svg/logo.svg";
 const Layout: React.FC = ({ children }) => {
   return (
     <>
-      <Header className={styles.header}>
+      <Header className={styles.header} aria-label="">
         <HeaderName href="/" prefix="" className={styles.headerLogo}>
           <img src={logoSVG.src} />
         </HeaderName>
