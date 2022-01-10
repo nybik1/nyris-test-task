@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./DragnDropZone.module.scss";
 import Image from "next/image";
 import { MOCK_IMAGES } from "./mockImages";
+import Link from "next/link";
 
 const DragnDropZone = () => {
   return (
@@ -19,7 +20,9 @@ const DragnDropZone = () => {
         <div className={styles.optionsImages}>
           {MOCK_IMAGES.map(({ name, url }) => (
             <div key={name} className={styles.imgWrapper}>
-              <Image src={url} alt={name} layout="fill" />
+              <Link href={`/${name}`}>
+                <Image src={url} alt={name} layout="fill" />
+              </Link>
             </div>
           ))}
         </div>

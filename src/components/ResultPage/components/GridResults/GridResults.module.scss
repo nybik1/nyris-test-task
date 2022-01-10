@@ -1,0 +1,50 @@
+.wrapper {
+  background: #fafafa;
+  padding: 24px 0 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 50px;
+}
+
+.bottomBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 48px;
+  border: 2px solid #e9e9ec;
+}
+
+.countResults {
+  width: 110px;
+  height: 100%;
+  border-right: 1px solid #e9e9ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #2b2c46;
+}
+
+.offerText {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #2b2c46;
+  & a {
+    color: #3e36dc;
+    cursor: pointer;
+  }
+}
+
+.ergoSvg {
+  border-left: 1px solid #e9e9ec;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

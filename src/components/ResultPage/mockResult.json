@@ -1,0 +1,381 @@
+{
+  "id": "d4e53eaa35bc587992ce93c768ccffcf",
+  "session": "d4e53eaa35bc587992ce93c768ccffcf",
+  "results": [
+    {
+      "oid": "b4c7e2d736a25d639ac88d0eac612a1b",
+      "title": "SPANNKOPF*SPH 20",
+      "description": "SPANNKOPF SPH 20",
+      "language": "de-DE",
+      "brand": "BERG",
+      "customIds": {
+        "vK_Text_Deutsch": "Spannkopf Rüstplatz",
+        "vK_Text_Englisch": "Clamping unit set-up station",
+        "iD_BaaN": "2706884",
+        "oeM-ID": "376.15426.000.0"
+      },
+      "categories": ["SPANNKOPF*SPH 20"],
+      "availability": "Invalid",
+      "ids": {
+        "vK_Text_Deutsch": "Spannkopf Rüstplatz",
+        "vK_Text_Englisch": "Clamping unit set-up station",
+        "iD_BaaN": "2706884",
+        "oeM-ID": "376.15426.000.0"
+      },
+      "sku": "2706884",
+      "score": 0.69,
+      "images": [
+        "https://img.nyris.io/9be/9be7c2f8674b34991876d71b31d89668c4f51d521477655196d2df9d7703d0cd.jpg",
+        "https://img.nyris.io/357/357bb3cd443f1c7fffef82fca1a3627282cbb9c757d55fa14eb889d2d7468198.jpg",
+        "https://img.nyris.io/cd6/cd6dded904e3641a29307ff7e5f3c2c0cc9cbb962c8cdf412cae8d5304ad6a6a.jpg",
+        "https://img.nyris.io/d8d/d8d24a7f95f652acb00e5d19036402c6cb603e0bf883b8922933314035146f7d.jpg"
+      ]
+    },
+    {
+      "oid": "b20f31e31ea7500795a38d24660323b3",
+      "title": "SPANNKOPF*AUFLAGEKOPF",
+      "description": "AUFLAGEKOPF",
+      "language": "de-DE",
+      "brand": "BERG",
+      "customIds": {
+        "vK_Text_Deutsch": "Auflagekopf Rüstplatz",
+        "vK_Text_Englisch": "Support for set-up station",
+        "iD_BaaN": "2707508",
+        "oeM-ID": "710.15426.300.0"
+      },
+      "categories": ["SPANNKOPF*AUFLAG"],
+      "availability": "Invalid",
+      "ids": {
+        "vK_Text_Deutsch": "Auflagekopf Rüstplatz",
+        "vK_Text_Englisch": "Support for set-up station",
+        "iD_BaaN": "2707508",
+        "oeM-ID": "710.15426.300.0"
+      },
+      "sku": "2707508",
+      "score": 0.68,
+      "images": [
+        "https://img.nyris.io/4d0/4d00d3f26a1b488534fc71b1f020f521fe572902324c7cc2a622d464a759f941.jpg",
+        "https://img.nyris.io/a54/a54f186c910ea75959740fd0b13cdd97c0375d09ea95153d56bd1d4913f80694.jpg",
+        "https://img.nyris.io/20e/20e32c5b346346b37a3e66e87405a74b2c7f1389dfecdaf66a1ad810047767d6.jpg",
+        "https://img.nyris.io/55f/55fb59286c03895de0bfb8e6c7f07013162ee1d211d51f18acfb96cd0711a7eb.jpg"
+      ]
+    },
+    {
+      "oid": "ac1682a9e44b5ce1a8a25dd6617aca20",
+      "title": "DREHDURCH-FHRG*5 KAN",
+      "language": "de-DE",
+      "customIds": {
+        "vK_Text_Deutsch": "Drehdurchführung",
+        "vK_Text_Englisch": "Rotary unit",
+        "iD_BaaN": "2412643",
+        "oeM-ID": null
+      },
+      "categories": ["DREHDURCH-FHRG*5"],
+      "availability": "Invalid",
+      "ids": {
+        "vK_Text_Deutsch": "Drehdurchführung",
+        "vK_Text_Englisch": "Rotary unit",
+        "iD_BaaN": "2412643",
+        "oeM-ID": null
+      },
+      "sku": "2412643",
+      "score": 0.68,
+      "images": [
+        "https://img.nyris.io/09f/09f0b62d5d46e2659184f88a447bb83dad3b97a3395d4944e2f83f9d469e8a73.jpg",
+        "https://img.nyris.io/968/96807fa21ae17f146243a09a9a3bcbea2f5b8d6590367e057716b02d32fbd356.jpg",
+        "https://img.nyris.io/5e4/5e45a8239f3bc9de2b17803328e9e27936e1429e395e9d5e24b503ed61986611.jpg",
+        "https://img.nyris.io/8aa/8aac99fd9c9c4d0f0d5fee2e6d9fd90ef67abc0c8ba2c5e5865391a7598652a4.jpg"
+      ]
+    },
+    {
+      "oid": "f718bb3913b357619848c71b6c8ec345",
+      "title": "FLANSCH*",
+      "language": "de-DE",
+      "customIds": {
+        "vK_Text_Deutsch": "Flansch*Aluminium*für Hydraulikzylinder Palettenklemmung",
+        "vK_Text_Englisch": "Flange*aluminum*for hydraulic cylinder pallet clamping",
+        "iD_BaaN": "10233966",
+        "oeM-ID": null
+      },
+      "categories": ["FLANSCH*"],
+      "availability": "Invalid",
+      "ids": {
+        "vK_Text_Deutsch": "Flansch*Aluminium*für Hydraulikzylinder Palettenklemmung",
+        "vK_Text_Englisch": "Flange*aluminum*for hydraulic cylinder pallet clamping",
+        "iD_BaaN": "10233966",
+        "oeM-ID": null
+      },
+      "sku": "10233966",
+      "score": 0.67,
+      "images": [
+        "https://img.nyris.io/b34/b34e0c04478e138d95725d0236e55bc41ef13ae3885549c4080a4d9684544a9a.jpg",
+        "https://img.nyris.io/ef3/ef34a4902ed5f2e8f9588a3811c6ad9b493f1874d9dc7ea48df11ab7cd9ac45c.jpg",
+        "https://img.nyris.io/225/225a3871e091a51555311020a7b05c2aa06b45dec63196beb28f3c69d4f20c33.jpg",
+        "https://img.nyris.io/ded/ded2496ddd207384d8939d056f03fb3782f0ee096806897a2357e356d6f9d193.jpg"
+      ]
+    },
+    {
+      "oid": "c6a82ee7fe585ffb8460b72934d872b2",
+      "title": "FLANSCH*110*45*20",
+      "language": "de-DE",
+      "customIds": {
+        "vK_Text_Deutsch": "Flansch für Kugelrollspindel * Stahl * D=110 mm * dI=45 mm",
+        "vK_Text_Englisch": "Flange for ball screw * steel * D=110 mm * dI=45 mm",
+        "iD_BaaN": "2717327",
+        "oeM-ID": null
+      },
+      "categories": ["FLANSCH*110*45*2"],
+      "availability": "Invalid",
+      "ids": {
+        "vK_Text_Deutsch": "Flansch für Kugelrollspindel * Stahl * D=110 mm * dI=45 mm",
+        "vK_Text_Englisch": "Flange for ball screw * steel * D=110 mm * dI=45 mm",
+        "iD_BaaN": "2717327",
+        "oeM-ID": null
+      },
+      "sku": "2717327",
+      "score": 0.66,
+      "images": [
+        "https://img.nyris.io/159/159eaf27915996106a710625b79f65f02616dce24a4d4b2cacb79c15c14ea2f0.jpg",
+        "https://img.nyris.io/eb6/eb6abb7dd38a9c4595b9c2bc7d6b0fd00c9e877b674834a1aa85953764f8ddff.jpg",
+        "https://img.nyris.io/4ae/4ae3e04814aefba47ad8729cac7a6ac130861fc72e3bb2786d626f8bff23f172.jpg",
+        "https://img.nyris.io/e5f/e5f80113cb2766a6e087393b3787005da8da868c98fa0dbf14c2ef0d99c1fa98.jpg"
+      ]
+    },
+    {
+      "oid": "b1f427d9a4cc55cd961a86584a40886d",
+      "title": "FLANSCH*BALLSCREW*X2",
+      "language": "de-DE",
+      "customIds": {
+        "vK_Text_Deutsch": "Flansch für Kugelgewindespindel X2 Stahl(C45E)",
+        "vK_Text_Englisch": "Flange for ball screw spindle X2 steel(C45E)",
+        "iD_BaaN": "2634974",
+        "oeM-ID": null
+      },
+      "categories": ["FLANSCH*BALLSCRE"],
+      "availability": "Invalid",
+      "ids": {
+        "vK_Text_Deutsch": "Flansch für Kugelgewindespindel X2 Stahl(C45E)",
+        "vK_Text_Englisch": "Flange for ball screw spindle X2 steel(C45E)",
+        "iD_BaaN": "2634974",
+        "oeM-ID": null
+      },
+      "sku": "2634974",
+      "score": 0.66,
+      "images": [
+        "https://img.nyris.io/079/079e573eeb6594b77501a44a525388855993b2ca3b210ff946842069b14cc39c.jpg",
+        "https://img.nyris.io/ce3/ce3c1ebc1aeed18651de2096f0b6c761e3fe1c467c9f7f8f1569d4c3b85c7fe3.jpg",
+        "https://img.nyris.io/004/00477fc202ed6163b9937f2dd1337ade3718f4d7a1a09724344425a55db1d7e0.jpg",
+        "https://img.nyris.io/fa1/fa106879e920a976fb0e94ce4388b211d20252fb89a13006ee5a63591e02837c.jpg"
+      ]
+    },
+    {
+      "oid": "0a8a848d490a57bfa1a9ba06947571f1",
+      "title": "RING*112*55.2*19.4*/3/DREHVERT",
+      "language": "de-DE",
+      "customIds": {
+        "vK_Text_Deutsch": "Ring für Drehverteiler* Edelstahl",
+        "vK_Text_Englisch": "Ring for rotary distributor *stainless steel",
+        "iD_BaaN": "7018986",
+        "oeM-ID": null
+      },
+      "categories": ["RING*112*55.2*19"],
+      "availability": "Invalid",
+      "ids": {
+        "vK_Text_Deutsch": "Ring für Drehverteiler* Edelstahl",
+        "vK_Text_Englisch": "Ring for rotary distributor *stainless steel",
+        "iD_BaaN": "7018986",
+        "oeM-ID": null
+      },
+      "sku": "7018986",
+      "score": 0.65,
+      "images": [
+        "https://img.nyris.io/5ef/5ef1a5af4cbd76613c9c28da830a229febf140dc1de7d8c14f28011e4159987e.jpg",
+        "https://img.nyris.io/6b9/6b90b323ab898090f389e6d625346ba3c10ccc309086364ecdbb39978b9c5129.jpg",
+        "https://img.nyris.io/dcb/dcbff4b3ba39210f67b9021fe2d85d006ac50c3b1895a4034b2ebce64d388f32.jpg",
+        "https://img.nyris.io/d8f/d8fe5e0cd2cf1fc00cac5c50c81a34c14d968abd9379c991e1159b660f30bdd0.jpg"
+      ]
+    },
+    {
+      "oid": "23aaec590887579e8e75ad5bef5337bb",
+      "title": "DREHDURCH-FHRG*2 KAN",
+      "language": "de-DE",
+      "customIds": {
+        "vK_Text_Deutsch": "Drehdurchführung*2 Kanal",
+        "vK_Text_Englisch": "Rotary Transmission",
+        "iD_BaaN": "2412656",
+        "oeM-ID": null
+      },
+      "categories": ["DREHDURCH-FHRG*2"],
+      "availability": "Invalid",
+      "ids": {
+        "vK_Text_Deutsch": "Drehdurchführung*2 Kanal",
+        "vK_Text_Englisch": "Rotary Transmission",
+        "iD_BaaN": "2412656",
+        "oeM-ID": null
+      },
+      "sku": "2412656",
+      "score": 0.65,
+      "images": [
+        "https://img.nyris.io/091/0913ae95c28f5c03857a42e14c0e601c9ba1f9d0d21e3798e7594dc2490fa8cc.jpg",
+        "https://img.nyris.io/a4f/a4fbd09f64e5a354661dbf2b3bad198f31ed76600e94ce10d3125ffea9159424.jpg",
+        "https://img.nyris.io/43b/43bc4cebda091786374b51ac6de1afb494c9cd485bd3b46089c24c4b018756a2.jpg",
+        "https://img.nyris.io/3de/3debed41b2d1b1f884a35572db4a36566e215b71b8a63248bc632277e9ac521c.jpg"
+      ]
+    },
+    {
+      "oid": "f0f4380a2d8e5850810543f7cda67235",
+      "title": "SATZ*2xSPK DM125 F.RÜSTPL.",
+      "description": "Satz",
+      "language": "de-DE",
+      "brand": "BERG",
+      "customIds": {
+        "vK_Text_Deutsch": "Satz Spannköpfe für Werkstückpalette* Stahl",
+        "vK_Text_Englisch": "Set of clamping heads for workpiece pallet * steel",
+        "iD_BaaN": "2524790",
+        "oeM-ID": "376.17594.000.0 in einem 2er Satz hoehensortiert"
+      },
+      "categories": ["SATZ*2xSPK DM125"],
+      "availability": "Invalid",
+      "ids": {
+        "vK_Text_Deutsch": "Satz Spannköpfe für Werkstückpalette* Stahl",
+        "vK_Text_Englisch": "Set of clamping heads for workpiece pallet * steel",
+        "iD_BaaN": "2524790",
+        "oeM-ID": "376.17594.000.0 in einem 2er Satz hoehensortiert"
+      },
+      "sku": "2524790",
+      "score": 0.64,
+      "images": [
+        "https://img.nyris.io/b7b/b7b18b31c5912b5d9a23ff7da4b034f90e92aef012b59894f1b6627910e283f5.jpg",
+        "https://img.nyris.io/fb4/fb494a6dfba9f98fc4ea7b9e7ae7e30229a71390bff58964e711acf2000c9e88.jpg",
+        "https://img.nyris.io/6aa/6aa9256e2b7b301033809bfdd17f99338b657012fe50e17129427bf085cad7a3.jpg",
+        "https://img.nyris.io/847/847c6eae3a8e5447cc0f764143acb286117e2002f5b07581f906e306663fd429.jpg"
+      ]
+    },
+    {
+      "oid": "8d740b62059c586f8b397bb273eb5980",
+      "title": "RING*164*86.5*17.5",
+      "language": "de-DE",
+      "customIds": {
+        "vK_Text_Deutsch": "Ring*Stahl*164x86,5x17,5",
+        "vK_Text_Englisch": "Ring*steel*164x86,5x17,5",
+        "iD_BaaN": "10235672",
+        "oeM-ID": null
+      },
+      "categories": ["RING*164*86.5*17"],
+      "availability": "Invalid",
+      "ids": {
+        "vK_Text_Deutsch": "Ring*Stahl*164x86,5x17,5",
+        "vK_Text_Englisch": "Ring*steel*164x86,5x17,5",
+        "iD_BaaN": "10235672",
+        "oeM-ID": null
+      },
+      "sku": "10235672",
+      "score": 0.63,
+      "images": [
+        "https://img.nyris.io/468/4682ff97cc4798cfb992c62d688787db7ad1dc58560917f422cdb2126fee2948.jpg",
+        "https://img.nyris.io/76f/76fc9ef88b8fa27eca1422d34674711d003a69cc1b2255cc1ef365c21d758bd2.jpg",
+        "https://img.nyris.io/81d/81dad26b6e46f30744a29a206f48e1b64d356f34bceb40f854c85f33529979a6.jpg",
+        "https://img.nyris.io/431/431a99d687c03a779a4b12063c4121aac65703c70b1e7e1c2ff8987094304d8b.jpg"
+      ]
+    },
+    {
+      "oid": "a7dc304da8a95213a22590669607641e",
+      "title": "RING*138*54.2*66",
+      "language": "de-DE",
+      "customIds": {
+        "vK_Text_Deutsch": "Ring * Stahl * dI=54 mm * D=138 mm * B=66 mm",
+        "vK_Text_Englisch": "Ring * steel * dI=54 mm * D=138 mm * B=66 mm",
+        "iD_BaaN": "2432264",
+        "oeM-ID": null
+      },
+      "categories": ["RING*138*54.2*66"],
+      "availability": "Invalid",
+      "ids": {
+        "vK_Text_Deutsch": "Ring * Stahl * dI=54 mm * D=138 mm * B=66 mm",
+        "vK_Text_Englisch": "Ring * steel * dI=54 mm * D=138 mm * B=66 mm",
+        "iD_BaaN": "2432264",
+        "oeM-ID": null
+      },
+      "sku": "2432264",
+      "score": 0.63,
+      "images": [
+        "https://img.nyris.io/f15/f15870cfae75f1e89982f4af8155c4be38992a4cac0344d0d4b365a2a02a9b7b.jpg",
+        "https://img.nyris.io/043/043655bd9520e2551dfd50efa95e8ba4530bc65b9a3556063cff437eb1bb8925.jpg",
+        "https://img.nyris.io/0b3/0b378fb802e095f38b1fd90def34a83a4537536aade08490f43d88e2c7a60449.jpg",
+        "https://img.nyris.io/e9d/e9df24195070cb776ef0778ff5a03282da8fd7aa9d8ba71decfe755a70e890bc.jpg"
+      ]
+    },
+    {
+      "oid": "f34ab73febfd5f599e475d733889b6f9",
+      "title": "UN.A CARTUC.BSDU230DD360 SNFA",
+      "language": "de-DE",
+      "customIds": {
+        "vK_Text_Deutsch": "Schrägkugellager* dI= 30 mm, D= 80 mm, B= 52 mm* Wälzlagerstahl",
+        "vK_Text_Englisch": "Angular contact ball bearing* dI= 30 mm, D= 80 mm, B= 52 mm* bearing steel",
+        "iD_BaaN": "0B070418",
+        "oeM-ID": null
+      },
+      "categories": ["UN.A CARTUC.BSDU"],
+      "availability": "Invalid",
+      "ids": {
+        "vK_Text_Deutsch": "Schrägkugellager* dI= 30 mm, D= 80 mm, B= 52 mm* Wälzlagerstahl",
+        "vK_Text_Englisch": "Angular contact ball bearing* dI= 30 mm, D= 80 mm, B= 52 mm* bearing steel",
+        "iD_BaaN": "0B070418",
+        "oeM-ID": null
+      },
+      "sku": "0B070418",
+      "score": 0.62,
+      "images": [
+        "https://img.nyris.io/a89/a89c0b63f069dd1be2b0ecaab2af256596ce71d5218f5590127c078a59426435.jpg",
+        "https://img.nyris.io/f51/f51a99390d5e6bd53dede968a3cfa3144274bdf46d9b0ed3dde8301833631390.jpg",
+        "https://img.nyris.io/6df/6df769ba3262658f428e2de67f6853716afd765f42e22741bb29411723eed59d.jpg",
+        "https://img.nyris.io/88b/88b33922d4b6cabbdc38b6d3ea0829096dd0292a29c5c125c4e2f932c820aca2.jpg"
+      ]
+    },
+    {
+      "oid": "e09af2b50c8b542e98b7b0d3064fe729",
+      "title": "BLOCK",
+      "language": "de-DE",
+      "brand": "MORI SEIKI",
+      "customIds": { "vK_Text_Deutsch": null, "vK_Text_Englisch": null, "iD_BaaN": "F73115A03", "oeM-ID": "F73115A03" },
+      "categories": ["BLOCK"],
+      "availability": "Invalid",
+      "ids": { "vK_Text_Deutsch": null, "vK_Text_Englisch": null, "iD_BaaN": "F73115A03", "oeM-ID": "F73115A03" },
+      "sku": "F73115A03",
+      "score": 0.61,
+      "images": [
+        "https://img.nyris.io/318/318688f61b4edfdd2173a771935f3b60f05da2cb733c74c7979b632c985a06dd.jpg",
+        "https://img.nyris.io/8c5/8c554132c61e48dddb7c31f3909c0618e2c036e7d561e31f47df1e63264e9b12.jpg",
+        "https://img.nyris.io/6f9/6f9db39c22a6f7a85d97dd7f17ce9c40072ea919b51cb619277a31e0c6bfc18c.jpg",
+        "https://img.nyris.io/5dd/5dd3db3a5b2f6d39b4f7361f2bf03842a747979602ec666718e4961dec330e1a.jpg"
+      ]
+    },
+    {
+      "oid": "9cb45be61c3f5e1caf3adc6e5e272cab",
+      "title": "RING*198*130H8*36",
+      "language": "de-DE",
+      "customIds": {
+        "vK_Text_Deutsch": "Ring*Stahl* 198 x 130 x 36mm, ohne Gewinde",
+        "vK_Text_Englisch": "Ring**steel* 198 x 130 x 36mm, non-threaded",
+        "iD_BaaN": "2354967",
+        "oeM-ID": null
+      },
+      "categories": ["RING*198*130H8*3"],
+      "availability": "Invalid",
+      "ids": {
+        "vK_Text_Deutsch": "Ring*Stahl* 198 x 130 x 36mm, ohne Gewinde",
+        "vK_Text_Englisch": "Ring**steel* 198 x 130 x 36mm, non-threaded",
+        "iD_BaaN": "2354967",
+        "oeM-ID": null
+      },
+      "sku": "2354967",
+      "score": 0.61,
+      "images": [
+        "https://img.nyris.io/126/12693e788ba9279927d63696ea100f4d7be32f44ac4ddd3dd337e8e428ab77dd.jpg",
+        "https://img.nyris.io/982/982ed0874d1d58ce012cdcbba48ad0a70f069eecbaaa4c57ec5f3c8cf51ebfe3.jpg",
+        "https://img.nyris.io/f6d/f6d15d015a977cb0bef9c35b8396aad7b8d408ad32410e49bdc20c1e9b4092b9.jpg",
+        "https://img.nyris.io/25d/25d545ad651421c278c030f031d376a00f730486c421bccf110ca87024214405.jpg"
+      ]
+    }
+  ]
+}
