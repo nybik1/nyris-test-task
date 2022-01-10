@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import styles from "./InputSearch.module.scss";
 import { useRouter } from "next/router";
-import shareSvg from "../../../../../public/assets/svg/shareIcon.svg";
+import ShareSvg from "../../../../assets/svg/shareIcon.svg";
 
 type InputSearchProps = {
-  handleSearch: (arg0: string) => void;
+  handleSearch: (arg0: string | string[] | undefined) => void;
 };
 
 const InputSearch: React.FC<InputSearchProps> = ({ handleSearch }) => {
   const router = useRouter();
-  const [value, setValue] = useState<string>(router.query.value);
+  const [value, setValue] = useState<string | string[] | undefined>(router.query.value);
 
   return (
     <div className={styles.inputWrapper}>
@@ -29,7 +29,7 @@ const InputSearch: React.FC<InputSearchProps> = ({ handleSearch }) => {
           }}
         />
         <button type="button" className={styles.buttonShare} disabled={!value}>
-          <img src={shareSvg.src} />
+          <ShareSvg />
         </button>
         <button
           type="button"

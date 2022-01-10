@@ -2,7 +2,7 @@ import React from "react";
 import GridItem from "../GridItem/GridItem";
 import styles from "./GridResults.module.scss";
 import { GridResultsProps } from "./Types";
-import ergonomicsSVG from "../../../../../public/assets/svg/ergonomics.svg";
+import ErgonomicsSVG from "../../../../assets/svg/ergonomics.svg";
 
 const GridResults: React.FC<GridResultsProps> = ({ results }) => {
   return (
@@ -22,7 +22,7 @@ const GridResults: React.FC<GridResultsProps> = ({ results }) => {
           Didn’t find what you were looking for? Share your search with our <a>product experts.</a>
         </p>
         <div className={styles.ergoSvg}>
-          <img src={ergonomicsSVG.src} />
+          <ErgonomicsSVG />
         </div>
       </div>
     </>

@@ -17,14 +17,16 @@ const Results: React.FC = () => {
     }
   }, [router.query.value]);
 
-  const findInValues = (arr: ResultItemTypes[], value: string) => {
+  const findInValues = (arr: ResultItemTypes[], value: string | string[] | undefined) => {
     if (value === "") return setResults(mockResults.results);
     value = String(value).toLowerCase();
     return setResults(() =>
-      arr.filter((o: any) => fieldsForSearch.some((entry) => String(o[entry]).toLowerCase().includes(value)))
+      arr.filter((o: any) =>
+        fieldsForSearch.some((entry) => String(o[entry]).toLowerCase().includes(value!?.toString()))
+      )
     );
   };
-  const handleSearch = (value: string) => {
+  const handleSearch = (value: string | string[] | undefined) => {
     findInValues(results, value);
   };
 

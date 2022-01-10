@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import styles from "./InputSearch.module.scss";
-import filterSvg from "../../../../../public/assets/svg/filterIcon.svg";
+import FilterSvg from "../../../../../src/assets/svg/filterIcon.svg";
 
 const InputSearch = () => {
   const [value, setValue] = useState("");
   const router = useRouter();
+
   return (
     <div className={styles.inputWrapper}>
       <form
@@ -22,7 +23,7 @@ const InputSearch = () => {
           placeholder="Search in Trumpf catalogue"
         />
         <button type="button" className={styles.buttonFilter}>
-          <img src={filterSvg.src} />
+          <FilterSvg />
         </button>
       </form>
     </div>

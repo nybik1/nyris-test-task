@@ -3,14 +3,14 @@ import styles from "./DragnDropZone.module.scss";
 import Image from "next/image";
 import MOCK_IMAGES from "./mock/mockImages";
 import Link from "next/link";
-import searchSvg from "../../../../../public/assets/svg/searchIcon.svg";
+import SearchSvg from "../../../../assets/svg/searchIcon.svg";
 
 const DragnDropZone = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.inner}>
         <div className={styles.svgWrapper}>
-          <img src={searchSvg.src} />
+          <SearchSvg />
         </div>
         <div className={styles.choosePhoto}>
           <input type="file" id="photo" className={styles.chooseInput} />
