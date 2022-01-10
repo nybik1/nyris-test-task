@@ -75,6 +75,9 @@
   height: 64px;
   position: relative;
   cursor: pointer;
+  & img {
+    border-radius: 4px;
+  }
   &:not(:last-child) {
     margin-right: 8px;
   }
