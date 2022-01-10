@@ -1,4 +1,4 @@
-export const MOCK_IMAGES = [
+const MOCK_IMAGES = [
   {
     name: "SPANNKOPF*SPH 20",
     url: "https://img.nyris.io/55f/55fb59286c03895de0bfb8e6c7f07013162ee1d211d51f18acfb96cd0711a7eb.jpg"
@@ -20,3 +20,5 @@ export const MOCK_IMAGES = [
     url: "https://img.nyris.io/982/982ed0874d1d58ce012cdcbba48ad0a70f069eecbaaa4c57ec5f3c8cf51ebfe3.jpg"
   }
 ];
+
+export default MOCK_IMAGES;

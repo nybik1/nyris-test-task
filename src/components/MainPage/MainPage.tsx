@@ -7,7 +7,7 @@ import styles from "./MainPage.module.scss";
 const MainPage = () => {
   return (
     <>
-      <div className="container">
+      <div className={styles.container}>
         <PromoSvg />
         <InputSearch />
         <p className={styles.searchDescription}>Search by any name, category, SKU or keyword.</p>

@@ -9,6 +9,12 @@
   gap: 50px;
 }
 
+.container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
 .bottomBlock {
   display: flex;
   align-items: center;
@@ -49,6 +55,7 @@
   border-left: 1px solid #e9e9ec;
   height: 100%;
   display: flex;
+  width: 48px;
   align-items: center;
   justify-content: center;
 }

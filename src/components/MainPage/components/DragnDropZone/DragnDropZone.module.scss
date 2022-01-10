@@ -4,7 +4,7 @@
   margin-top: 168px;
 }
 .inner {
-  border: 1px dotted #55566b;
+  border: 1px dashed #55566b;
   padding: 64px 0;
 }
 
@@ -15,7 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #e9e9ec;
+  background: linear-gradient(180deg, #56577c 0%, #2b2c46 100%);
   margin: 0 auto;
 }
 

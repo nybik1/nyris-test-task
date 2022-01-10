@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import styles from "./InputSearch.module.scss";
+import filterSvg from "../../../../../public/assets/svg/filterIcon.svg";
 
 const InputSearch = () => {
   const [value, setValue] = useState("");
@@ -11,7 +12,7 @@ const InputSearch = () => {
         className={styles.form}
         onSubmit={(e) => {
           e.preventDefault();
-          router.push(`/${value}`);
+          router.push(`/search/?value=${value}`);
         }}
       >
         <input
@@ -20,7 +21,9 @@ const InputSearch = () => {
           onChange={(e) => setValue(e.target.value)}
           placeholder="Search in Trumpf catalogue"
         />
-        <button className={styles.buttonFilter}>filter svg</button>
+        <button type="button" className={styles.buttonFilter}>
+          <img src={filterSvg.src} />
+        </button>
       </form>
     </div>
   );

@@ -17,6 +17,9 @@
   bottom: 16px;
   left: 16px;
   cursor: pointer;
+  & img {
+    width: 100%;
+  }
 }
 
 .info {
@@ -36,10 +39,13 @@
   line-height: 16px;
   font-weight: 600;
   color: #2b2c46;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .bottom {
-  margin-top: 8px;
+  margin-top: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -48,6 +54,14 @@
 .rate,
 .actions {
   display: flex;
+  justify-content: space-between;
+  & img {
+    cursor: pointer;
+  }
+}
+
+.rate {
+  width: 48px;
 }
 
 .share,
