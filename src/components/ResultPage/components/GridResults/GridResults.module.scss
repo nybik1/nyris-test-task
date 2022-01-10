@@ -1,6 +1,6 @@
 .wrapper {
   background: #fafafa;
-  padding: 24px 0 40px;
+  padding: 24px 0 88px;
 }
 
 .grid {
@@ -15,6 +15,10 @@
   justify-content: space-between;
   height: 48px;
   border: 2px solid #e9e9ec;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #f3f3f5;
 }
 
 .countResults {
