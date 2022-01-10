@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import styles from "./PromoSvg.module.scss";
 import CombinedShape from "../../../../assets/svg/combinedShape.svg";
 
@@ -10,4 +10,4 @@ const PromoSvg: React.FC = () => {
   );
 };
 
-export default PromoSvg;
+export default memo(PromoSvg);

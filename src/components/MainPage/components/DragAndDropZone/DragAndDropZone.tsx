@@ -1,11 +1,10 @@
-import React from "react";
-import styles from "./DragnDropZone.module.scss";
+import React, { memo } from "react";
+import styles from "./DragAndDropZone.module.scss";
 import Image from "next/image";
-import MOCK_IMAGES from "./mock/mockImages";
-import Link from "next/link";
+import MOCK_IMAGES from "./mocks/mockImages";
 import SearchSvg from "../../../../assets/svg/searchIcon.svg";
 
-const DragnDropZone = () => {
+const DragAndDropZone = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.inner}>
@@ -22,11 +21,9 @@ const DragnDropZone = () => {
         <p className={styles.optionsText}>You can try with these options too:</p>
         <div className={styles.optionsImages}>
           {MOCK_IMAGES.map(({ name, url }) => (
-            <Link href={`/search/?value=${name}`} key={name}>
-              <div className={styles.imgWrapper}>
-                <Image src={url} alt={name} layout="fill" />
-              </div>
-            </Link>
+            <div className={styles.imgWrapper} key={name}>
+              <Image src={url} alt={name} layout="fill" />
+            </div>
           ))}
         </div>
       </div>
@@ -34,4 +31,4 @@ const DragnDropZone = () => {
   );
 };
 
-export default DragnDropZone;
+export default memo(DragAndDropZone);

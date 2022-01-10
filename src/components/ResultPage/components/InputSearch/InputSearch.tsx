@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./InputSearch.module.scss";
 import { useRouter } from "next/router";
 import ShareSvg from "../../../../assets/svg/shareIcon.svg";
@@ -9,7 +9,10 @@ type InputSearchProps = {
 
 const InputSearch: React.FC<InputSearchProps> = ({ handleSearch }) => {
   const router = useRouter();
-  const [value, setValue] = useState<string | string[] | undefined>(router.query.value);
+  const [value, setValue] = useState<string | string[] | undefined>("");
+  useEffect(() => {
+    setValue(router.query.value);
+  }, [router.query.value]);
 
   return (
     <div className={styles.inputWrapper}>

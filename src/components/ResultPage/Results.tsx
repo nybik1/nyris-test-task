@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import GridResults from "./components/GridResults/GridResults";
 import InputSearch from "./components/InputSearch/InputSearch";
-import mockResults from "./mockResult.json";
+import mockResults from "./mocks/mockResult.json";
 import { useRouter } from "next/router";
-import { ResultItemTypes } from "./Types";
+import { ResultItemTypes } from "./types";
+import filterByValue from "../../../utils/filterByValue";
 
 const fieldsForSearch = ["title", "sku", "categories"];
 
@@ -19,16 +20,24 @@ const Results: React.FC = () => {
 
   const findInValues = (arr: ResultItemTypes[], value: string | string[] | undefined) => {
     if (value === "") return setResults(mockResults.results);
-    value = String(value).toLowerCase();
-    return setResults(() =>
-      arr.filter((o: any) =>
-        fieldsForSearch.some((entry) => String(o[entry]).toLowerCase().includes(value!?.toString()))
-      )
+    const preparedValue = String(value).toLowerCase();
+    return setResults(() => filterByValue(arr, preparedValue));
+  };
+  const handleSearch = useCallback((value: string | string[] | undefined) => {
+    findInValues(mockResults.results, value);
+    router.replace(
+      {
+        pathname: router.pathname,
+        query: {
+          value
+        }
+      },
+      undefined,
+      {
+        shallow: true
+      }
     );
-  };
-  const handleSearch = (value: string | string[] | undefined) => {
-    findInValues(results, value);
-  };
+  }, []);
 
   return (
     <>

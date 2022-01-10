@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import React, { memo } from "react";
 import styles from "./GridItem.module.scss";
 import ZoomSVG from "../../../../assets/svg/itemZoom.svg";
 import ThumbUpSVG from "../../../../assets/svg/thumbUp.svg";
@@ -44,4 +44,4 @@ const GridItem: React.FC<GridItemProps> = ({ img, title, sku }) => {
   );
 };
 
-export default GridItem;
+export default memo(GridItem);

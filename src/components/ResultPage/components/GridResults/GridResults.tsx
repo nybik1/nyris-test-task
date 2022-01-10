@@ -17,7 +17,9 @@ const GridResults: React.FC<GridResultsProps> = ({ results }) => {
         </div>
       </div>
       <div className={styles.bottomBlock}>
-        <div className={styles.countResults}>{results.length} items</div>
+        <div className={styles.countResults}>
+          {results.length} {results.length > 1 ? "items" : "item"}
+        </div>
         <p className={styles.offerText}>
           Didn’t find what you were looking for? Share your search with our <a>product experts.</a>
         </p>

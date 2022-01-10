@@ -1,5 +1,5 @@
 import React from "react";
-import DragnDropZone from "./components/DragnDropZone/DragnDropZone";
+import DragnDropZone from "./components/DragAndDropZone/DragAndDropZone";
 import InputSearch from "./components/InputSearch/InputSearch";
 import PromoSvg from "./components/PromoSvg/PromoSvg";
 import styles from "./MainPage.module.scss";
