@@ -1,10 +1,15 @@
 import React from "react";
-import Header from "../src/components/Header/Header";
+import { Header, HeaderName } from "carbon-components-react";
+import styles from "./Layout.module.scss";
 
 const Layout: React.FC = ({ children }) => {
   return (
     <>
-      <Header />
+      <Header className={styles.header}>
+        <HeaderName href="/" prefix="" className={styles.headerLogo}>
+          nyris
+        </HeaderName>
+      </Header>
       <main>{children}</main>
     </>
   );
