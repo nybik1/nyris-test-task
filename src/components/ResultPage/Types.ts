@@ -1,4 +1,5 @@
 export type ResultItemTypes = {
+  [index: string]: any;
   oid: string;
   title: string;
   description?: string;
