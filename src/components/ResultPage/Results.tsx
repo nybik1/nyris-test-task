@@ -12,9 +12,9 @@ const Results: React.FC = () => {
 
     useEffect(() => {
         if (router.query.value) {
-            findInValues(results, router.query.value);
+            findInValues(mockResults.results, router.query.value);
         }
-    }, [router.query.value, results]);
+    }, [router.query.value]);
 
     const findInValues = (arr: ResultItemTypes[], value: string | string[] | undefined) => {
         if (value === '') return setResults(mockResults.results);
