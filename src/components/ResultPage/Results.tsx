@@ -14,28 +14,31 @@ const Results: React.FC = () => {
         if (router.query.value) {
             findInValues(results, router.query.value);
         }
-    }, [router.query.value]);
+    }, [router.query.value, results]);
 
     const findInValues = (arr: ResultItemTypes[], value: string | string[] | undefined) => {
         if (value === '') return setResults(mockResults.results);
         const preparedValue = String(value).toLowerCase();
         return setResults(() => filterByValue(arr, preparedValue));
     };
-    const handleSearch = useCallback((value: string | string[] | undefined) => {
-        findInValues(mockResults.results, value);
-        router.replace(
-            {
-                pathname: router.pathname,
-                query: {
-                    value
+    const handleSearch = useCallback(
+        (value: string | string[] | undefined) => {
+            findInValues(mockResults.results, value);
+            router.replace(
+                {
+                    pathname: router.pathname,
+                    query: {
+                        value
+                    }
+                },
+                undefined,
+                {
+                    shallow: true
                 }
-            },
-            undefined,
-            {
-                shallow: true
-            }
-        );
-    }, []);
+            );
+        },
+        [router]
+    );
 
     return (
         <>

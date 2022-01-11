@@ -4,7 +4,7 @@ import InputSearch from './components/InputSearch/InputSearch';
 import PromoSvg from './components/PromoSvg/PromoSvg';
 import styles from './MainPage.module.scss';
 
-const MainPage = () => {
+const MainPage: React.FC = () => {
     return (
         <>
             <div className={styles.container}>

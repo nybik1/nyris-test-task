@@ -4,7 +4,7 @@ import Image from 'next/image';
 import MOCK_IMAGES from './mocks/mockImages';
 import SearchSvg from '../../../../assets/svg/searchIcon.svg';
 
-const DragAndDropZone = () => {
+const DragAndDropZone: React.FC = () => {
     const dragOverHandler = useCallback((e: React.DragEvent) => {
         e.preventDefault();
     }, []);

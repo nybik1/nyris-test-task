@@ -1,7 +1,7 @@
 import React from 'react';
 import GridItem from '../GridItem/GridItem';
 import styles from './GridResults.module.scss';
-import { GridResultsProps } from './Types';
+import { GridResultsProps } from './types';
 import ErgonomicsSVG from '../../../../assets/svg/ergonomics.svg';
 
 const GridResults: React.FC<GridResultsProps> = ({ results }) => {
@@ -18,7 +18,7 @@ const GridResults: React.FC<GridResultsProps> = ({ results }) => {
             </div>
             <div className={styles.bottomBlock}>
                 <div className={styles.countResults}>
-                    {results.length} {results.length > 1 ? 'items' : 'item'}
+                    {results.length} {results.length === 1 ? 'item' : 'items'}
                 </div>
                 <p className={styles.offerText}>
           Didn’t find what you were looking for? Share your search with our <a>product experts.</a>

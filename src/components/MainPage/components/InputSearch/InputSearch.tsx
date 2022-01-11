@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import styles from './InputSearch.module.scss';
 import FilterSvg from '../../../../../src/assets/svg/filterIcon.svg';
 
-const InputSearch = () => {
+const InputSearch: React.FC = () => {
     const [value, setValue] = useState('');
     const router = useRouter();
 
