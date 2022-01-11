@@ -1,4 +1,4 @@
-import { ResultItemTypes } from "../../types";
+import { ResultItemTypes } from '../../types';
 
 export type GridResultsProps = {
   results: ResultItemTypes[];
